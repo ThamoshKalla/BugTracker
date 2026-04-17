@@ -500,7 +500,7 @@ elif nav == "➕ Add Bug":
                     "Enigineer": engineer or None,
                     "Date of assign": date_assign.strftime("%Y-%m-%d") if date_assign else None,
                     "Date of complete": date_complete.strftime("%Y-%m-%d") if date_complete else None,
-                    "Empty": empty_field or None,
+                   # "Empty": empty_field or None,
                     "Category": category or None,
                     "Challenges": challenges or None,
                     "Remarks": remarks or None,
